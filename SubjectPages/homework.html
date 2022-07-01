@@ -13,50 +13,112 @@
     body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
     .fa-anchor,.fa-coffee {font-size:200px}
+    footer{
+    background-color: rgb(255, 255, 255);
+    opacity: 1;
+    width:100%;
+    position: static;
+    display: block;
+    bottom: 0; 
+}
+.w-cell{
+  /* border-bottom: 2px solid black; */
+  min-width: 100px;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.w-mp{
+  padding: 0;
+  margin: 0;
+}
+.w-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial,sans-serif;font-size:14px;
+overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-u89u{font-family:Verdana, Geneva, sans-serif !important;font-size:13px;font-weight:bold;text-align:left;vertical-align:top}
+.tg .tg-ht73{font-family:Verdana, Geneva, sans-serif !important;font-size:13px;text-align:left;vertical-align:top}
+
     </style>
 </head>
 <body>
   
-<div class="w3-top">
-  <div class="w3-bar w3-blue w3-card w3-left-align w3-large">
-    <!-- Nav icon -->
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-blue" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <!-- home -->
-    <!-- <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a> -->
-    <!-- home  -->
-    <a href="../index.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
-
-  </div>
-
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
-    <a href="../index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
-  </div>
+  <div class="w3-top  w3-blue w3-bar w3-card">
+    <div style="padding: 10px">Homework</div>
 </div>
  
 <!-- Navbar ends here   -->
 <!--  started my homework section  -->
  
  <div class="w3-row-padding  w3-container" style="padding-top:64px">
-  <div class="w3-content">
-
- <p class="w3-container">-----------------done </br>
- maths   --(Assignment) </br>
- physics --(wrong Questions)(Practical file) </br>
- english --(assignment + Vocablury) </br>
- </br>
- ----------------pending </br>
- Programing C   --(be Prepared for viva) </br>
- Microprocessor --( File + Assignment) </br>
- Digital Ele    --(assignmnet)(hw sunday circuit)(file practical 8)</p>  </br>
-
+  <!-- table start here -->
+  <div class="w3-content w-center">
+    <table class="tg">
+      <tbody>
+        <tr>
+          <td class="tg-u89u">Microprocessor</td>
+          <td class="tg-ht73 w-mp" >
+            <div class="w-cell">assign 1</div>
+            <div class="w-cell">assign 1</div>
+            <div class="w-cell">assign 1</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="tg-u89u">Digital </td>
+          <td class="tg-ht73 w-mp" >
+            <div class="w-cell">assign 1</div>
+            <div class="w-cell">assign 1</div>
+            <div class="w-cell">assign 1</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="tg-u89u">Programing in c</td>
+          <td class="tg-ht73">
+            <div class="w-cell">assign 1</div>
+            <div class="w-cell">assign 1</div>
+            <div class="w-cell">assign 1</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="tg-u89u">Maths</td>
+          <td class="tg-ht73">
+            <div class="w-cell">assign 1</div>
+            <div class="w-cell">assign 1</div>
+            <div class="w-cell">assign 1</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="tg-u89u">Physics</td>
+          <td class="tg-ht73">
+            <div class="w-cell">assign 1</div>
+            <div class="w-cell">assign 1</div>
+            <div class="w-cell">assign 1</div>
+          </td>
+        </tr>
+        <tr>
+          <td class="tg-u89u">English</td>
+          <td class="tg-ht73">
+            <div class="w-cell">assign 1</div>
+            <div class="w-cell">assign 1</div>
+            <div class="w-cell">assign 1</div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
+  <!-- table start here -->
 </div>
-  
-  
-    <!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
-<footer class="w3-container w3-padding-32 w3-center w3-opacity"> 
-  <div class="w3-xlarge w3-padding-2">
+
+
+<!-- Footer. This section contains an ad for W3Schools Spaces. You can leave it to support us. -->
+<footer class="w3-container w3-padding-32 w3-center w3-opacity" style="bottom: 0px;"> 
+  <div class="w3-xlarge w3-padding-2" style="display:block">
     <i class="fa fa-linkedin w3-hover-opacity"></i>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-youtube w3-hover-opacity"></i>
@@ -65,14 +127,9 @@
     <!-- <i class="fa fa-twitter w3-hover-opacity"></i> -->
  </div>
  <p>This website is created by krn arora <br> Feel free to contact me you can find me on above links</p>
- <a class="w3-button w3-round-xxlarge w3-black w3-margin-bottom"
-    href="https://www.w3schools.com/spaces" 
-    target="_blank"
-  >
-    Contact Me
- </a>
- <!-- Footer end. -->
- </footer> 
+ <a class="w3-button w3-round-xxlarge w3-black w3-margin-bottom"href="#" target="_blank"> Contact Me</a>
+</footer> 
+<!-- Footer end. -->
 
 <script>
 // Used to toggle the menu on small screens when clicking on the menu button
