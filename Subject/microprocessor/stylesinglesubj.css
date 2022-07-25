@@ -1,0 +1,112 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        
+    }
+
+    .nav-container {
+        display: flex;
+    }
+    .navtitle{
+     font-size: 17px;
+    }
+
+    /* .tg {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    .tg td {
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        overflow: hidden;
+        padding: 10px 5px;
+        word-break: normal;
+    }
+
+    .tg th {
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        overflow: hidden;
+        padding: 10px 5px;
+        word-break: normal;
+    }
+
+    .tg .tg-u89u {
+        font-family: Verdana, Geneva, sans-serif !important;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: left;
+        vertical-align: top
+    }
+
+    .tg .tg-ht73 {
+        font-family: Verdana, Geneva, sans-serif !important;
+        font-size: 13px;
+        text-align: left;
+        vertical-align: top
+    }
+
+    .td {
+        min-width: 120px;
+        max-width: 150px;
+    } */
+
+    .w-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .h-center {
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+    }
+    .v-center {
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+
+    .menuIcon{
+        padding: 10px;
+    }
+    .container {
+        display: flex;
+    }
+
+    .sidebar {
+        width: 160px;
+        padding: 8px;
+        min-width: 160px;
+        background-color: rgb(145, 196, 255);
+        color: aliceblue;
+        position: fixed;
+        left: 0px;
+        top: 46px;
+        height: 100%;
+        z-index: 11;
+    }
+    .sidebar div{margin: 3px;}
+    a{color: rgb(175, 34, 34)}
+    a:hover{color: aliceblue;}
+    a:visited{color: darkgreen;}
+    .showHide{
+        display: none;
+    }
+
+    iframe {
+        margin-right: 20px;
+        padding-bottom: 40px;
+        height : 89vh;
+        width:100%;
+    }
+
